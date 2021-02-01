@@ -1,0 +1,33 @@
+header,
+footer {
+  background-color: #0d6efd;
+  color: white;
+}
+
+nav {
+  border-radius: 0 0 10px 10px;
+}
+
+footer {
+  border-radius: 10px 10px 0 0;
+}
+
+footer button {
+  border-color: white !important;
+  color: white !important;
+}
+
+.content {
+  background-color: rgba(169, 176, 184, 0.3);
+  border-radius: 10px;
+}
+
+footer button:hover {
+  background-color: white !important;
+  color: #0d6efd !important;
+}
+
+.sidebar .card {
+  background-color: #6610f2;
+  color: white;
+}
