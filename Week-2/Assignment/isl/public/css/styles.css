@@ -1,0 +1,99 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* margin: 0 8rem; */
+  font-size: larger;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: #0d47a1;
+  color: white;
+  padding: 20px 0;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #063274;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #0d47a1;
+}
+
+.content {
+  min-height: 50vh;
+  border: 5px solid #0d47a1;
+
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex .content-group {
+  max-width: 33%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 6px 12px;
+  margin: 7px;
+  border-radius: 4px;
+  color: #0d47a1;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #0d47a1;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #0d47a1;
+}
