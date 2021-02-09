@@ -97,3 +97,20 @@ nav ul li a:hover {
   color: white;
   background-color: #0d47a1;
 }
+
+table,
+th,
+td {
+  border: 3px solid #063274;
+  padding: 7px;
+}
+
+th {
+  background-color: #063274;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px;
+}
